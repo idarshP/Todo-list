@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo List</title>
+  </head>
+  <body>
+    <div>  
+      <center>
+        <img src="https://img.freepik.com/free-vector/list-concept-illustration_114360-1320.jpg?w=826&t=st=1664430972~exp=1664431572~hmac=e4de61acf7b6514455e4d1df882e767b48f8f40d4a3877d38955ebe6f7b02efa">
+        <form id="addForm">
+          <h3><u> Add your Task ToDo</u></h3>
+          <input type="text" placeholder="Enter list item...." id="item" style="border-radius: 5px;"" required>&nbsp;
+          <input type="submit" id="submit" class="add" value="+" />
+        </form>
+        <h3 id="remian"><u>Incomplete Tasks</u></h3>
+        <div>
+          <ol class="list-group" id="items"></ol>
+        </div>
+        <h3><u>Completed Tasks</u></h3>
+        <div id="done">
+          <ol class="Compeleted-form" id="comp-task">
+          </ol>
+        </div>
+      </center>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
