@@ -2,4 +2,4 @@
 This is only HTML, CSS and JavaScript project.
 
 # Download
-Download the code and run the HTML file in your browser and start make changes it as you want to.
+Download the code and run the HTML file in your browser and start make changes in it as you want to.
